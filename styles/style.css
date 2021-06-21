@@ -35,6 +35,19 @@ body{
     font-family: var(--font-family);
     font-size: 15px;
 }
+.pagination{
+    margin: 20px 0;
+}
+.pagination-index{
+    display: inline-block;
+    width: 48%;
+    text-align: right;
+}
+.pagination-nav{
+    display: inline-block;
+    width: 48%;
+    text-align: right;
+}
 /* global css ends */
 /* header css start */
 header{
@@ -99,6 +112,7 @@ header .nav .nav-item{
 .blog-card {
     background: var(--bg-color);
     width: 520px;
+    margin-bottom: 20px;
 }
 .blog-card img{
     max-width: 100%;
