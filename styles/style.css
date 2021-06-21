@@ -31,6 +31,10 @@ html{
 .row{
 
 }
+body{
+    font-family: var(--font-family);
+    font-size: 15px;
+}
 /* global css ends */
 /* header css start */
 header{
@@ -60,10 +64,41 @@ header .nav .nav-item{
 }
 /* header css end */
 /* main-content css start */
+.latest-post{
+    margin-bottom: 25px;
+}
+.all-posts{
+    margin: 30px 0;
+}
+.main-content{
+    margin: 20px 26px;
+}
+.home-header{
+    font-family: var(--font-family);
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.home-sub-header{
+    font-family: var(--font-family);
+    font-size: 15px;
+    line-height: 2em;
+}
+.home-content-hr{
+    margin: 2rem 0;
+}
+.card-parent {
+    display: grid;
+    /* grid-template-rows: 1fr 1fr; */
+    grid-template-columns: 1fr 1fr;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    justify-items: center;
+    
+}
 .blog-card {
     background: var(--bg-color);
-    width: 500px;
-    overflow: ;
+    width: 520px;
 }
 .blog-card img{
     max-width: 100%;
@@ -100,3 +135,15 @@ header .nav .nav-item{
     line-height: 1.5em;
 }
 /* main-content css ends */
+/* footer css starts */
+.fa{
+    font-size: 50px;
+    color: var(--secondary-color);
+    margin-right: 10px;
+}
+footer p{
+    font-family: var(--font-family);
+    font-size: 15px;
+    line-height: 2em;
+}
+/* footer css ends */
